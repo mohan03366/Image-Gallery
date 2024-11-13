@@ -1,0 +1,30 @@
+/* src/components/ImageDetail.css */
+.image-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  .image-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .image-detail h2 {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+  .image-detail p {
+    font-size: 16px;
+    color: #555;
+  }
+  .image-detail button {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
